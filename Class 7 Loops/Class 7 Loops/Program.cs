@@ -150,9 +150,13 @@ namespace Class_7_Loops
 
             //rectangle of characters
 
+            /*/
+
             Console.WriteLine("Please enter a symbol to use");
             string symbol = Console.ReadLine();
             Console.WriteLine("Please enter the height of the rectangle");
+
+
 
             int height = int.Parse(Console.ReadLine());
             Console.WriteLine("Please enter the width of the rectangle");
@@ -170,9 +174,85 @@ namespace Class_7_Loops
             Console.ReadLine();
 
        
+            /*/
+
+            /*/
+
+            Console.WriteLine("Number counter");
+
+          for (int i = 1; i <= 50; i++)
+            {
+                Console.WriteLine($"{i} ");
+                if (i % 10 == 0) //If the number 10 has a remainder of 0 the console will write a line that will make a space.
+                    Console.WriteLine();
+            }
+            Console.ReadLine();
+
+            Console.WriteLine("While Loop Counter");
+            int counter = 1;
+            int finish = 50;
+            while(counter <= finish)
+            {
+                Console.WriteLine(counter);
+                counter++;
+            }
+
+            Console.ReadLine();
 
 
-             
+
+    /*/
+
+
+            /*/
+
+            double total = 0;
+
+
+            for (int counter = 1; counter <= 10; counter++)
+            {
+                Console.WriteLine("Enter a number" + counter);
+                total += double.Parse(Console.ReadLine());
+
+
+            }
+            Console.WriteLine("Press any key to continue");
+            Console.ReadLine();
+
+            Console.WriteLine("Enter y if you want to add another number?");
+                string input = (Console.ReadLine());
+                while (input == "y")
+                {
+                    Console.WriteLine("Enter the number you would like to add");
+                    total += double.Parse(Console.ReadLine());
+                    Console.WriteLine("Press 1 to enter another number press any other key to stop");
+                    input = Console.ReadLine().ToLower();
+
+                }
+               
+                
+                
+                    Console.WriteLine("Total:   " + total);
+                    Console.ReadLine();
+                
+
+      /*/
+
+
+            Console.WriteLine("Please enter a number");
+            int num = Convert.ToInt32(Console.ReadLine());
+
+            for (int i = 0; i <= num; i++)
+            {
+                if ( i %2 = 0 )
+
+            }
+            
+
+
+
+
+
 
 
 
@@ -182,5 +262,15 @@ namespace Class_7_Loops
 
 
         }
+
+
+
+
+
+
+
+
+
     }
 }
+
